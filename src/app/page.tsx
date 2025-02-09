@@ -28,7 +28,7 @@ export default function Page() {
         { id: 1, name: "C1", description: "Cargo Retrieval", positionX: 18.20, positionY: 24.65, isCompleted: false },
         { id: 2, name: "C2", description: "Dizzy Drill", positionX: 38.55, positionY: 28.54, isCompleted: false },
         { id: 3, name: "C3", description: "Orange Farm", positionX: 62.45, positionY: 32.90, isCompleted: false },
-        { id: 4, name: "C4", description: "Train", positionX: 90.0, positionY: 50.2, isCompleted: false },
+        { id: 4, name: "C4", description: "Train", positionX: 90.0, positionY: 49, isCompleted: false },
         { id: 5, name: "C5", description: "Moving Container", positionX: 65.92, positionY: 52.13, isCompleted: false },
         { id: 6, name: "C6", description: "Container Handing", positionX: 36.82, positionY: 46.33, isCompleted: false },
         { id: 7, name: "C7", description: "Keeper Ball", positionX: 13, positionY: 42.15, isCompleted: false },
@@ -501,6 +501,250 @@ export default function Page() {
             height={60}
           />
         </div>
+        {/* 1 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "27%",
+            left: "32.20%",
+            transform: "translate(-50%, -50%) rotate(40deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+        </div>
+        {/* 2 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "30.50%",
+            left: "50%",
+            transform: "translate(-50%, -50%) rotate(40deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+        </div>
+        {/* 3 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "32%",
+            left: "75%",
+            transform: "translate(-50%, -50%) rotate(30deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+        </div>
+        {/* 4 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "40.60%",
+            left: "84%",
+            transform: "translate(-50%, -50%) rotate(-110deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+        </div>
+        {/* 5 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "52%",
+            left: "79.90%",
+            transform: "translate(-50%, -50%) rotate(20deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(0px 0px 0px 10px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
+        {/* 6 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "51%",
+            left: "51.50%",
+            transform: "translate(-50%, -50%) rotate(48deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+        </div>
+        {/* 7 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "43.80%",
+            left: "25%",
+            transform: "translate(-50%, -50%) rotate(30deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(10px 0px 0px 0px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
+        {/* 8 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "48.50%",
+            left: "16.80%",
+            transform: "translate(-50%, -50%) rotate(130deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(0px 0px 30px 0px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
+        {/* 9 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "68%",
+            left: "18%",
+            transform: "translate(-50%, -50%) rotate(20deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(30px 0px 30px 0px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
+        {/* 10 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "71%",
+            left: "28.90%",
+            transform: "translate(-50%, -50%) rotate(70deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(0px 0px 0px 80px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
+        {/* 11 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "80.60%",
+            left: "47%",
+            transform: "translate(-50%, -50%) rotate(160deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(80px 0px 0px 0px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+
+        </div>
+        {/* 12 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "71.70%",
+            left: "68%",
+            transform: "translate(-50%, -50%) rotate(-30deg) scale(1, -1)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+          />
+
+        </div>
+        {/* 13 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "78%",
+            left: "86%",
+            transform: "translate(-50%, -50%) rotate(20deg)",
+            animation: "spin 2s linear infinite",
+          }}
+        >
+          <Image
+            src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+            alt="Map"
+            width={200}
+            height={200}
+            style={{
+              clipPath: "inset(0px 0px 0px 30px)", // ใช้ตัดขอบในภาพ
+            }}
+          />
+        </div>
 
         {mapData.map((lesson) => (
           <div
@@ -604,239 +848,6 @@ export default function Page() {
             </button>
           </div>
         )}
-        {/* 1 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "25%",           // จัดตำแหน่งด้านบน
-            left: "28%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 55 60 Q 100 0, 190 80"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 2 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "30%",           // จัดตำแหน่งด้านบน
-            left: "50%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 30 Q 100 30, 200 70"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 3 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "35%",           // จัดตำแหน่งด้านบน
-            left: "74.50%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 30 Q 100 50, 157 30"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 4 */}
-        <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute",
-            top: "38.20%",
-            left: "87.30%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
-          <path
-            d="M 20 40 Q 80 30, 170 200"
-            stroke="black"
-            fill="none"
-            strokeWidth="3"
-            strokeDasharray="10,4"
-          />
-        </svg>
-        {/* 5 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "55%",           // จัดตำแหน่งด้านบน
-            left: "80.10%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 20 Q 150 20, 200 0"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 6 */}
-        <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute",
-            top: "54%",
-            left: "56%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
-          {/* เส้นประแบบโค้งที่ยาวขึ้น */}
-          <path
-            d="M 0 0 Q 0 0, 230 100" // เปลี่ยนพิกัด x จาก 200 เป็น 400
-            stroke="black"
-            fill="none"
-            strokeWidth="3"
-            strokeDasharray="10,4"
-          />
-        </svg>
-        {/* 7 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "44%",           // จัดตำแหน่งด้านบน
-            left: "23.30%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 20 20 Q 100 30, 190 80"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 8 */}
-        <svg width="10" height="200" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute",
-            top: "54%",
-            left: "15%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
-          {/* เส้นประแนวตั้ง */}
-          <path
-            d="M 0 0 L 0 130" // เปลี่ยนจากเส้นโค้งเป็นเส้นตรงแนวตั้ง
-            stroke="black"
-            fill="none"
-            strokeWidth="6"
-            strokeDasharray="10,4"
-          />
-        </svg>
-        {/* 9 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "72%",           // จัดตำแหน่งด้านบน
-            left: "21.40%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 0 Q 10 10, 110 10"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 10 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "73.50%",           // จัดตำแหน่งด้านบน
-            left: "37%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 10 Q 0 10, 50 100"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 11 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "71.50%",           // จัดตำแหน่งด้านบน
-            left: "51%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 70 10 Q 0 0, 0 200"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 12 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "71.50%",           // จัดตำแหน่งด้านบน
-            left: "68.70%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 10 Q 0 10, 190 100"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
-        {/* 13 */}
-        <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"
-          style={{
-            position: "absolute", // หรือ relative/fixed
-            top: "78.50%",           // จัดตำแหน่งด้านบน
-            left: "92.90%",          // จัดตำแหน่งด้านซ้าย
-            transform: "translate(-50%, -50%)", // จัดให้อยู่กึ่งกลาง
-          }}
-        >
-          {/* เส้นประแบบโค้ง*/}
-          <path
-            d="M 0 10 Q 0 36, 50 0"  //กำหนดเส้นโค้ง 
-            stroke="black"                //สีของเส้น
-            fill="none"                   //ไม่มีสีพื้นหลัง
-            stroke-width="3"              //ความหนาของเส้น
-            stroke-dasharray="10,4"       //รูปแบบเส้นประ (10px เส้น, 5px ช่องว่าง)
-          />
-        </svg>
 
       </div>
     );

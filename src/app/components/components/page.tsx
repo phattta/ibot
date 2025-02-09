@@ -24,17 +24,17 @@ export default function Page() {
 
         const initialLessons: MapPoint[] = [
             { id: 1, name: "C1", description: "Cargo Retriveval", positionX: 17, positionY: 21, isCompleted: false },
-            { id: 2, name: "C2", description: "Dizzy Drill", positionX: 37.90, positionY: 26, isCompleted: false },
-            { id: 3, name: "C3", description: "Orange Farm", positionX: 59, positionY: 30, isCompleted: false },
+            { id: 2, name: "C2", description: "Dizzy Drill", positionX: 40.90, positionY: 25, isCompleted: false },
+            { id: 3, name: "C3", description: "Orange Farm", positionX: 58, positionY: 31.60, isCompleted: false },
             { id: 4, name: "C4", description: "Traln", positionX: 88, positionY: 34, isCompleted: false },
-            { id: 5, name: "C5", description: "Moving Container", positionX: 86, positionY: 57, isCompleted: false },
-            { id: 6, name: "C6", description: "Container Handlng", positionX: 57.50, positionY: 48, isCompleted: false },
+            { id: 5, name: "C5", description: "Moving Container", positionX: 86, positionY: 52, isCompleted: false },
+            { id: 6, name: "C6", description: "Container Handlng", positionX: 60, positionY: 53, isCompleted: false },
             { id: 7, name: "C7", description: "Keeper Ball", positionX: 33, positionY: 44, isCompleted: false },
             { id: 8, name: "C8", description: "Logistic", positionX: 13, positionY: 56, isCompleted: false },
-            { id: 9, name: "C9", description: "square Box", positionX: 17, positionY: 68, isCompleted: false },
+            { id: 9, name: "C9", description: "square Box", positionX: 19, positionY: 68, isCompleted: false },
             { id: 10, name: "C10", description: "Maze Runner", positionX: 30, positionY: 80, isCompleted: false },
             { id: 11, name: "C11", description: "Line Tracking", positionX: 38, positionY: 64, isCompleted: false },
-            { id: 12, name: "C12", description: "Vacuum", positionX: 56, positionY: 76, isCompleted: false },
+            { id: 12, name: "C12", description: "Vacuum", positionX: 56, positionY: 78, isCompleted: false },
             { id: 13, name: "C13", description: "Teaffic Lights", positionX: 75.60, positionY: 70, isCompleted: false },
             { id: 14, name: "C14", description: "Analysis", positionX: 93, positionY: 77, isCompleted: false },
             { id: 15, name: "1", description: "Movement Certificate", positionX: 74, positionY: 30, isCompleted: false },
@@ -82,7 +82,7 @@ export default function Page() {
             <div
                 style={{
                     position: "absolute",
-                    top: "61.80%", // Adjust position as needed
+                    top: "57%", // Adjust position as needed
                     left: "82%",
                     transform: "translate(-50%, -50%)",
                 }}
@@ -90,8 +90,8 @@ export default function Page() {
                 <Image
                     src="/m.png"
                     alt="Mountain"
-                    width={180}
-                    height={180}
+                    width={200}
+                    height={200}
                 />
             </div>
             <div
@@ -427,8 +427,8 @@ export default function Page() {
             <div
                 style={{
                     position: "absolute",
-                    top: "40.50%",
-                    left: "55%",
+                    top: "45.60%",
+                    left: "58%",
                     transform: "translate(-50%, -50%)",
                 }}
             >
@@ -442,7 +442,7 @@ export default function Page() {
             <div
                 style={{
                     position: "absolute",
-                    top: "69%",
+                    top: "71%",
                     left: "52.20%",
                     transform: "translate(-50%, -50%)",
                 }}
@@ -452,6 +452,313 @@ export default function Page() {
                     alt="Treasure Chest"
                     width={100}
                     height={100}
+                />
+            </div>
+            {/* 1 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "24%",
+                    left: "28%",
+                    transform: "translate(-50%, -50%) rotate(40deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 2 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "28.60%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%) rotate(40deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 3 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "32%",
+                    left: "70.60%",
+                    transform: "translate(-50%, -50%) rotate(50deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 4 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "32%",
+                    left: "83%",
+                    transform: "translate(-50%, -50%) rotate(50deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 5 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "41.60%",
+                    left: "87%",
+                    transform: "translate(-50%, -50%) rotate(170deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 6 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "52.90%",
+                    left: "71.20%",
+                    transform: "translate(-50%, -50%) rotate(30deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 7 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "49%",
+                    left: "45%",
+                    transform: "translate(-50%, -50%) rotate(-130deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 8 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "42.50%",
+                    left: "19.50%",
+                    transform: "translate(-50%, -50%) rotate(40deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 9 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "44.90%",
+                    left: "10.60%",
+                    transform: "translate(-50%, -50%) rotate(150deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 10 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "54.60%",
+                    left: "12%",
+                    transform: "translate(-50%, -50%) rotate(116deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                    style={{
+                        clipPath: "inset(0px 0px 60px 20px)", // ใช้ตัดขอบในภาพ
+                    }}
+                />
+            </div>
+            {/* 11 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "70%",
+                    left: "22.20%",
+                    transform: "translate(-50%, -50%) rotate(110deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                    style={{
+                        clipPath: "inset(10px 0px 40px 60px)", // ใช้ตัดขอบในภาพ
+                    }}
+                />
+
+            </div>
+            {/* 12 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "83.70%",
+                    left: "33%",
+                    transform: "translate(-50%, -50%) rotate(220deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+
+            </div>
+            {/* 13 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "72%",
+                    left: "39%",
+                    transform: "translate(-50%, -50%) rotate(100deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+
+            </div>
+            {/* 14 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "66%",
+                    left: "45.90%",
+                    transform: "translate(-50%, -50%) rotate(-100deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                    style={{
+                        clipPath: "inset(60px 0px 0px 0px)", // ใช้ตัดขอบในภาพ
+                    }}
+                />
+            </div>
+            {/* 15*/}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "74%",
+                    left: "65%",
+                    transform: "translate(-50%, -50%) rotate(10deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            {/* 16 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "68%",
+                    left: "82.90%",
+                    transform: "translate(-50%, -50%) rotate(80deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                    style={{
+                        clipPath: "inset(0px 0px 60px 20px)", // ใช้ตัดขอบในภาพ
+                    }}
+                />
+            </div>
+            {/* 17 */}
+            <div
+                style={{
+                    position: "absolute",
+                    top: "78%",
+                    left: "85%",
+                    transform: "translate(-50%, -50%) rotate(50deg)",
+                    animation: "spin 2s linear infinite",
+                }}
+            >
+                <Image
+                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png"
+                    alt="Map"
+                    width={200}
+                    height={200}
+                    style={{
+                        clipPath: "inset(0px 0px 50px 100px)", // ใช้ตัดขอบในภาพ
+                    }}
                 />
             </div>
 
@@ -691,42 +998,6 @@ export default function Page() {
                     </button>
                 </div>
             )}
-
-            <div
-                className="relative"
-                style={{
-                    width: "124.479px",
-                    height: "83.8675px",
-                    transform: "translate(733.01px, 591.626px) rotate(14deg)",
-                    touchAction: "pan-x pan-y pinch-zoom",
-                }}
-            >
-                <div className="relative">
-                    <div className="flex justify-center items-center">
-                        <div className="overflow-hidden">
-                            <div
-                                className="relative"
-                                style={{
-                                    width: "124.479px",
-                                    height: "83.8675px",
-                                    transform: "translate(0px, 0px) rotate(0deg)",
-                                }}
-                            >
-                                <Image
-                                    src="/428ab916-b798-41a4-98c9-40fdf8842943.png" // Path to your local image
-                                    alt="Hand drawn curved dotted line"
-                                    width={124} // Provide explicit width
-                                    height={84} // Provide explicit height
-                                    className="w-full h-auto"
-                                    draggable="false"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="absolute top-0 left-0 pointer-events-none" style={{ transformOrigin: "0px 0px", width: "112.685px", transform: "scale(1.10466)", }}>
-                </div>
-            </div>
 
         </div >
     );
